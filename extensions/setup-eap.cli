@@ -1,0 +1,4 @@
+embed-server --std-out=echo --admin-only --server-config=standalone-openshift.xml 
+/system-property=testSystemProperty:add(value="Hello From System Property!")
+run-batch
+stop-embedded-server
