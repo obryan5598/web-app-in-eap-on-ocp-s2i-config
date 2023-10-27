@@ -1,5 +1,7 @@
 # webapp-in-wildfly-on-kubernetes
 
+This repo shows how to deploy a WAR of a given web-app on EAP running on OCP.
+
 ## OCP commands
 
 ```
