@@ -26,4 +26,10 @@ oc get route
 
 # Invoke the web App via HTTPie
 http http://path.to.your.ocp.cluster/web-app-in-eap-on-ocp/systemProperty
- 
+```
+
+## TODOs
+
+Following TODOs to complete:
+- Import an Elytron Credential Store with given credentials
+- Adding a JDBC driver as a module and configure the instance accordingly using the Elytron Credential Store
