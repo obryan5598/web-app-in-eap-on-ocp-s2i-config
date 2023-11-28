@@ -1,4 +1,5 @@
 embed-server --std-out=echo --admin-only --server-config=standalone-openshift.xml 
 /system-property=testSystemProperty:add(value="Hello From System Property!")
+/subsystem=datasources/jdbc-driver=postgresql:add(driver-name=postgresql,driver-module-name="com.postgresql",driver-xa-datasource-class-name="org.postgresql.xa.PGXADataSource")
 run-batch
 stop-embedded-server
